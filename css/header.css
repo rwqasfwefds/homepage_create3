@@ -1,0 +1,19 @@
+/* <!-- 헤더 --> */
+#main-header { 
+    padding: 40px 50px;
+    position: fixed;
+    top: 0px;
+    width: 900px;
+    background-color: white;
+    z-index: 5;
+ }
+.master-title {
+    font-size: 30px; 
+    color: #181818;
+    text-align: center;
+}
+.log{
+    float: right;
+    text-decoration: underline;
+    
+}

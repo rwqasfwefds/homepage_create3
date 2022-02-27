@@ -1,0 +1,32 @@
+fieldset{
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: lightblue;
+    
+}
+input{
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    
+    
+}
+body{
+    margin-top: 300px ;
+    text-align: center;
+    width: 410px;
+}
+button{
+    width: 90px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    float: right;
+}
+span{
+    float: left;
+}

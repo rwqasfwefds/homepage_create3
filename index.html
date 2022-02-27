@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Basic Page</title>
+    <link rel="stylesheet" href="css/commons.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/commons.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div id="page-wrapper">
+        <!-- 머리말 -->
+        <header id="main-header">
+            <hgroup>
+                <h1 class="master-title">Black Cow</h1>
+                <a href="login.html" class="log">로그인</a><br>
+                <a href="회원가입.html" class="log">회원가입</a>
+            </hgroup>
+        </header>
+        <nav id="main-navigation">
+            <div class="pull-left">
+                <ul class="outer-menu">
+                    <li class="outer-menu-item">
+                        <span class="menu-title">About</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a href="index.html">Home</a></li>
+                            <li class="inner-menu-item"><a href="회원가입.html">회원가입</a></li>
+                        </ul>
+                    </li>
+                    <li class="outer-menu-item">
+                        <span class="menu-title">상품정보</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a href="info_cup.html">컵소개</a></li>
+                        </ul>
+                    </li>
+                    <li class="outer-menu-item">
+                        <span class="menu-title">찾아오시는길</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="pull-right">
+                <div class="search-bar">
+                    <form>
+                        <input type="text" class="input-search" />
+                        <input type="submit" class="input-search-submit" value="검색" />
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+       
+        <!-- 본문 -->
+        <div id="content">
+            <section id="main-section">
+                <article>
+                <div id="container">
+                    <h1>신상품 목록</h1><br>
+                    <ul class="prod-list">
+                        <!-- 첫 번째 상품 이미지 -->
+                        <li>
+                            <a href="#" class="click"><img src="img/prod1.jpg"></a>
+                            <div class="caption">
+                                <h3>연필통</h3>
+                                <p>오늘 하루만 ㅈㄴ 세일</p>
+                                <p>가격 : 1,253,000원</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="click"><img src="img/prod2.jpg"></a>
+                            <div class="caption">
+                                <h3>여성복</h3>
+                                <p>오늘 하루 사장 손해 봄</p>
+                                <p>가격 : 13,542,340원</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="click"><img src="img/prod3.jpg"></a>
+                            <div class="caption">
+                                <h3>와인잔</h3>
+                                <p>창고 대방출</p>
+                                <p>가격 : 10,000원</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                </article>
+                <hr>
+                
+                <article>
+                    <div id="container">
+                        <h1 class="fes">사장 씹손해</h1><br>
+                        <ul class="prod-list">
+                            <!-- 첫 번째 상품 이미지 -->
+                            <li>
+                                <a href="#" class="click"><img src="img/prod1.jpg"></a>
+                                <div class="caption">
+                                    <h3>연필통</h3>
+                                    <p>오늘 하루만 ㅈㄴ 세일</p>
+                                    <p>가격 : 1,253,000원</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="click"><img src="img/prod2.jpg"></a>
+                                <div class="caption">
+                                    <h3>여성복</h3>
+                                    <p>오늘 하루 사장 손해 봄</p>
+                                    <p>가격 : 13,542,340원</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="click"><img src="img/prod3.jpg"></a>
+                                <div class="caption">
+                                    <h3>와인잔</h3>
+                                    <p>창고 대방출</p>
+                                    <p>가격 : 10,000원</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    </article>
+                    <hr>
+                    
+            </section>
+            
+            <!-- 오른쪽 메뉴 -->
+            <aside id="main-aside">
+                <!-- 첫 번째 대 메뉴 -->
+                <div class="aside-list">
+                    <h2>카테고리</h2>
+                    <!-- 소 메뉴 -->
+                    <ul>
+                        <li><a href="#"><h2>여성복</h2></a></li>
+                        <li><a href="#"><h2>남성복</h2></a></li>
+                        <li><a href="#"><h2>아동복</h2></a></li>
+                        <li><a href="#"><h2>문구</h2></a></li>
+                        <li><a href="#"><h2>냉동</h2></a></li>
+                        <li><a href="#"><h2>가전제품</h2></a></li>
+                    </ul>
+                </div>
+                <!-- 두 번째 대 메뉴 -->
+                <div class="aside-list">
+                    <h2>고객 센터</h2>
+                    <!-- 소 메뉴 -->
+                    <ul>
+                        <li><a href="#"><h2>홈</h2></a></li>
+                        <li><a href="#"><h2>FAQ</h2></a></li>
+                        <li><a href="#"><h2>문의내역</h2></a></li>
+                        <li><a href="#"><h2>고객의 소리</h2></a></li>
+                        <li><a href="#"><h2>Black cow 공지</h2></a></li>
+                    </ul>
+                </div>
+                
+            </aside>
+        </div>
+        <!-- 꼬리 말 -->
+        <footer id="main-footer">
+            <a href="#">Black cow company</a>
+        </footer>
+    </div>
+</body>
+</html>
